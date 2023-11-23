@@ -175,4 +175,4 @@ html.platen-theme-mode-auto {
 {{ end }}
 
 // Custom site-maintainer defined styles.
-@import "custom";
+@use "custom";
