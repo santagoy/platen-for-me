@@ -74,7 +74,7 @@ $BaseURLPrefix: "{{ "" | relURL }}";
 
 // Load user defined variables before continuing. This is an alternative to
 // adding variables through the configuration.
-@import "variables";
+@use "variables";
 
 // Modes determine whether the site uses light mode, dark mode, or automatically
 // shows the same mode as the site user's system preferences.
